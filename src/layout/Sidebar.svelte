@@ -50,7 +50,9 @@
     <SidebarLinkGroup label="CombineTier" url="/combinetier/*">
       <SidebarLink url="/combinetier/deploy">Deploy a CombineTier</SidebarLink>
 
-      <SidebarLink url="/combinetier/deployHoldingTimeTransferTier">Deploy a HasHeldFor CombineTier</SidebarLink>
+      <SidebarLink url="/combinetier/deployHoldingTimeTransferTier"
+        >Deploy a HasHeldFor CombineTier</SidebarLink
+      >
 
       <SidebarLink url="/combinetier/report/">
         Check a CombineTier Report
@@ -91,6 +93,12 @@
       </SidebarLink>
 
       <SidebarLink url="/verify/administer/">Administer a Verify</SidebarLink>
+
+      <SidebarLink url="/verify/list">Browse all Verifies</SidebarLink>
+
+      <SidebarLink url="/verify/verifyTiers/list"
+        >Browse all VerifyTiers</SidebarLink
+      >
     </SidebarLinkGroup>
 
     <SidebarLinkGroup label="Deploy ERC20" url="/erc20/*">

@@ -33,7 +33,9 @@
   import MintFromExistingERC20 from "./routes/mint-erc20/MintFromExistingERC20.svelte";
   import HoldingTimeTransferTier from "./routes/combine-tier/HoldingTimeTransferTier.svelte";
   import ListFaucets from "./routes/mint-erc20/ListFaucets.svelte";
-
+  import ListVerifies from "./routes/verify/ListVerifies.svelte";
+  import ListVerifyTiers from "./routes/verify/ListVerifyTiers.svelte";
+  import VerifyTierReport from "./routes/verify/VerifyTierReport.svelte";
 
   let routes = {};
 
@@ -69,6 +71,9 @@
 
     "/verify/deploy": DeployVerify,
     "/verify/administer/*": AdministerVerify,
+    "/verify/list": ListVerifies,
+    "/verify/verifyTiers/list": ListVerifyTiers,
+    "/verify/verifyTiers/report/*": VerifyTierReport,
 
     "/erc20/deploy": DeployERC20,
     "/erc20/mint/*": MintFromExistingERC20,
